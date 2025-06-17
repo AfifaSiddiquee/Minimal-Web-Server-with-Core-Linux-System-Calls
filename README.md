@@ -3,7 +3,7 @@
 **Course:** Operating Systems (CT-353)  
 **Department:** Computer Science & Information Technology, NED University  
 **Student:** Afifa Siddique  
-**Project Type:** Complex Computing Problem (CCP)
+
 
 ## 🔗 Project Overview
 
