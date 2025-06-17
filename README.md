@@ -11,7 +11,7 @@ This project showcases the development of a basic web server using core **Linux 
 
 ---
 
-## 🚀 Features
+## 🔗 Features
 
 - Processes basic HTTP GET requests  
 - Handles multiple clients using `fork()` (multi-processing)  
@@ -20,7 +20,7 @@ This project showcases the development of a basic web server using core **Linux 
 
 ---
 
-## 🛠️ Technologies Used
+## 🔗 Technologies Used
 
 - **C Programming Language**  
 - **Linux OS**  
@@ -31,25 +31,25 @@ This project showcases the development of a basic web server using core **Linux 
 
 ---
 
-## 📟 System Calls in Action
+## 🔗 System Calls in Action
 
-### 🔌 Networking
+###  Networking
 - `socket()` – Create socket for communication  
 - `bind()` – Assign socket to IP and port  
 - `listen()` – Listen for incoming client connections  
 - `accept()` – Accept client connection requests  
 
-### 👥 Process Management
+###  Process Management
 - `fork()` – Spawn child process per client  
 - `wait()` – Handle cleanup of zombie processes  
 
-### 📁 File Management
+###  File Management
 - `read()` – Read HTTP request from client  
 - `write()` / `send()` – Send HTTP response to client  
 
 ---
 
-## ✅ Achievements
+## 🔗 Achievements
 
 - Implemented system-level networking operations  
 - Achieved concurrency using multi-processing  
@@ -57,21 +57,21 @@ This project showcases the development of a basic web server using core **Linux 
 
 ---
 
-## ⚠️ Limitations
+## 🔗 Limitations
 
 - Not scalable for production use (each client handled via `fork()`)  
 - Only supports basic GET requests  
 - No HTTPS or advanced protocol features  
 - No robust error handling or logging  
 
-## 🔮 Future Improvements
+## 🔗 Future Improvements
 
 - Use threads or asynchronous I/O (e.g., `select()` or `epoll`) for better scalability  
 - Add support for more HTTP methods (POST, PUT)  
 - Implement HTTPS using SSL/TLS  
 - Integrate logging and error tracking  
 
-## 📚 Learning Outcome
+## 🔗 Learning Outcome
 
 Through this project, I gained hands-on experience in working directly with **Linux system calls**, deepening my understanding of how **operating systems manage processes, network sockets, and resource allocation** behind the scenes in real-world applications.
 
