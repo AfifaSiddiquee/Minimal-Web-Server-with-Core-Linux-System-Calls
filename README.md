@@ -59,31 +59,3 @@ Content-Type: text/html
 
 <html><body><h1>Hello, World!</h1></body></html>
 
-
- ✅ Achievements
-Implemented system-level networking operations
-
-Achieved concurrency using multi-processing
-
-Practiced OS-level concepts like process isolation and resource management
-
-⚠️ Limitations
-Not scalable for production use (each client handled via fork())
-
-Only supports basic GET requests
-
-No HTTPS or advanced protocol features
-
-No robust error handling or logging
-
-🔮 Future Improvements
-Use threads or asynchronous I/O (e.g., select() or epoll) for better scalability
-
-Add support for more HTTP methods (POST, PUT)
-
-Implement HTTPS using SSL/TLS
-
-Integrate logging and error tracking
-
-📚 Learning Outcome
-Through this project, I gained hands-on experience in working directly with Linux system calls, deepening my understanding of how operating systems manage processes, network sockets, and resource allocation behind the scenes in real-world applications.
